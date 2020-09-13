@@ -171,7 +171,7 @@ void printCoefficient(std::vector<std::vector<int>> graph)
             { //para cada vertice (b) adjacente a (v)
                 if (!tab[x][k] && x != k)
                 { //se um triangulo ainda nao foi encontrado
-                    if (find_in_vector(graph[i][x], graph[graph[i][k]]))
+                    if (find_in_array(graph[i][x], graph[graph[i][k]]))
                     { //se a for encontrado dentre os adjacente a b
                         tab[x][k] = true;
                         tab[k][x] = true; //marcamos na tabela para avisar que ja foi encontrado

@@ -33,7 +33,7 @@ std::set<int> difference (std::set<int> a, std::set<int> b){
     return result;
 }
 
-bool find_in_vector(int x, std::vector<int> a){
+bool find_in_array(int x, std::vector<int> a){
     for(long unsigned int i = 0; i<a.size(); i++){
         if(a[i] == x) return true;
     }

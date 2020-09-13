@@ -18,6 +18,6 @@ std::set<int> set_union (std::set<int> a, std::set<int> b);
 std::set<int> difference (std::set<int> a, std::set<int> b);
 
 //encontra um elemento x em um vector
-bool find_in_vector(int x, std::vector<int> a);
+bool find_in_array(int x, std::vector<int> a);
 
 #endif
