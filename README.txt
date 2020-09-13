@@ -8,3 +8,8 @@ Executar: ./main
 
 Obs:
 Nome do arquivo de leitura está setado dentro do código. Caso queira mudar, mude no código fonte.
+
+Atividades:
+
+- Afonso -> Leitura do Arquivo, Criação do grafo, Printar lista de adjacência, Printar graus e Cálculo dos coeficentes de aglomeração de cada vértice
+- Gabriel -> Cálculo dos coeficientes de aglomeração médio, lógica dos cliques, Bron_Kerbosch e métodos Utils
